@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End - Teste</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <div class="nome">
+                <p>Nome: </p>
+                <input type="text" id="nome" placeholder="Ex: Arthur Vieira">
+            </div>
+            <div class="info">
+                <div class="type-marmita">
+                    <p>Tipo de marmita: </p>
+                    <select name="tipoMarmita" id="tipo-marmita">
+                        <option value="low-carb" id="opcao1">Low carb</option>
+                        <option value="Vegetariana" id="opcao2">Vegetariana</option>
+                        <option value="tradicional" id="opcao3">Tradicional</option>
+                    </select>
+                </div>
+                <div class="qtd-marmitas">
+                    <p>Quantidade: </p>
+                    <input type="number" id="qtdMarmitas">
+                </div>
+                <div class="restricao-alimentar">
+                    <input type="checkbox" id="semGluten" name="restricao" value="Sem glúten" checked>
+                    <label for="sem-gluten">Sem Glúten</label>
+                    <input type="checkbox" id="semLactose" name="restricao" value="Sem lactose">
+                    <label for="sem-lactose">Sem lactose</label>
+                </div>
+                <input type="submit" value="enviar" class="btn">
+            </div>
+        </div>
+
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th class="cliente"></th>
+                    <th class="tipo"></th>
+                    <th class="quantidade"></th>
+                    <th class="restricoes"></th>
+                    <th class="valorTotal"></th>
+                    <th class="acoes"></th>
+                </tr>
+            </thead>
+            <tbody id="listaUsuarios"></tbody>
+        </table>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>
