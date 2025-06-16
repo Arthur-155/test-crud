@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    background-color: #466d3a;
+    width: 800px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.container .nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+}
+
+select {
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.container .info .type-marmita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .qtd-marmitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #4c7e3d;
+    cursor: pointer;
+    color: white;
+}
+
+table {
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: solid 1px #000;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+    justify-content: center;
+}
+
+th {
+    background-color: #4c7e3d;
+}
+
+
+.btns {
+    display: flex;
+}
+
+.btns button {
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin-left: 5px;
+}
+
+.btns button:hover {
+    background-color: #4c7e3d;
+    cursor: pointer;
+    color: #fff;
+}
